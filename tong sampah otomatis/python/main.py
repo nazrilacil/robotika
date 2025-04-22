@@ -12,3 +12,17 @@ servo.start(0)
 def buka_tutup(buka=True):
     if buka:
         servo.ChangeDutyCycle(7)  # posisi buka
+    else:
+        servo.ChangeDutyCycle(2)  # posisi tutup
+    time.sleep(0.5)
+
+cap = cv2.VideoCapture(0)
+
+while True:
+    ret, frame = cap.read()
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    
+    # bisa ditambah model deteksi wajah atau objek
+    if gray.mean() < 50:  # contoh kondisi sederhana
+
+buka_tutup(True)
