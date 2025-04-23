@@ -48,7 +48,8 @@ Penjelasan Kode:
    - Setiap kali sensor mendeteksi objek dengan jarak kurang dari 20 cm, servo akan terbuka dan menutup setelah 5 detik.
 
 # python 
-kalo liat orang 😆  
+🔍 Contoh Fitur Tambahan dengan Python + OpenCV:
+1. *Deteksi wajah* → tong sampah buka kalo liat orang 😆  
 2. *Deteksi gerakan tangan* (gesture)  
 3. *Klasifikasi sampah* → organik / non-organik pake *Machine Learning*  
 4. *Monitoring kamera real-time* dari webcam atau kamera USB  
